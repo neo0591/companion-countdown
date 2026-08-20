@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/xcshareddata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# 密钥与本地配置
+.env
+.env.*
+*.p12
+*.mobileprovision
+
+# 编辑器
+.vscode/
+.idea/
